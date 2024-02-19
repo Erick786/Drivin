@@ -166,6 +166,41 @@ h3{
 .card-footer{
     text-align: center;
 }
-
+.links-list{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+.links-list li{
     
- 
+    margin-right: 10px;
+}  
+.links-list li a{
+    color: black;
+    text-decoration: none;
+}
+.social-media{
+    text-align: center;
+}
+.social-media h5{
+    margin-bottom: 10px;
+}
+.footer{
+    background-color: #3a3b8c;
+    padding: 20px;
+}
+@media (min-wisth: 992px){
+    body{
+        font-size: 16px;
+    }
+}
+@media(max-width: 991px) and (min-width: 768px){
+    body{
+        font-size: 14px;
+    }
+}
+@media (min-wisth: 767px){
+    body{
+        font-size: 12px;
+    }
+}
